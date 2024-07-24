@@ -1,2 +1,0 @@
-execute if score Global dirsIdx matches 1 run scoreboard players operation Global dirsVal = Global dirs1
-execute if score Global dirsIdx matches 2 run scoreboard players operation Global dirsVal = Global dirs2
