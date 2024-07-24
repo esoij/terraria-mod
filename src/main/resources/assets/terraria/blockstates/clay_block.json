@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/clay_block"
+      },
+      {
+        "model": "terraria:block/clay_block1"
+      },
+      {
+        "model": "terraria:block/clay_block2"
+      }
+    ]
+  }
+}

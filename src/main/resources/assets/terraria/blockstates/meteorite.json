@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/meteorite"
+      },
+      {
+        "model": "terraria:block/meteorite1"
+      },
+      {
+        "model": "terraria:block/meteorite2"
+      }
+    ]
+  }
+}

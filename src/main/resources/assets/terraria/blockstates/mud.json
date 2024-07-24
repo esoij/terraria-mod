@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/mud"
+      },
+      {
+        "model": "terraria:block/mud1"
+      },
+      {
+        "model": "terraria:block/mud2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/jungle_grass"
+      },
+      {
+        "model": "terraria:block/jungle_grass1"
+      },
+      {
+        "model": "terraria:block/jungle_grass2"
+      }
+    ]
+  }
+}

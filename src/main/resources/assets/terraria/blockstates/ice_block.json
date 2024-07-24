@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/ice_block"
+      },
+      {
+        "model": "terraria:block/ice_block1"
+      },
+      {
+        "model": "terraria:block/ice_block2"
+      }
+    ]
+  }
+}

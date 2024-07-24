@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/green_dungeon_brick"
+      },
+      {
+        "model": "terraria:block/green_dungeon_brick1"
+      },
+      {
+        "model": "terraria:block/green_dungeon_brick2"
+      }
+    ]
+  }
+}

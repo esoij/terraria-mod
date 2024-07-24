@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/jungle_tree_leaves"
+      },
+      {
+        "model": "terraria:block/jungle_tree_leaves1"
+      },
+      {
+        "model": "terraria:block/jungle_tree_leaves2"
+      }
+    ]
+  }
+}

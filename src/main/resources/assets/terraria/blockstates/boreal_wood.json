@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/boreal_wood"
+      },
+      {
+        "model": "terraria:block/boreal_wood1"
+      },
+      {
+        "model": "terraria:block/boreal_wood2"
+      }
+    ]
+  }
+}

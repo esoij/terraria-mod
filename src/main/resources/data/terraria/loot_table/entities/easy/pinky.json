@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 25,
+        "max": 50
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terraria:pink_gel"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "terraria:gold_coin"
+        }
+      ]
+    }
+  ]
+}

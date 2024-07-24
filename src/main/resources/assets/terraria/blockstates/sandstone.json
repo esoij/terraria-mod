@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/sandstone"
+      },
+      {
+        "model": "terraria:block/sandstone1"
+      },
+      {
+        "model": "terraria:block/sandstone2"
+      }
+    ]
+  }
+}

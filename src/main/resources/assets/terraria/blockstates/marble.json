@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/marble"
+      },
+      {
+        "model": "terraria:block/marble1"
+      },
+      {
+        "model": "terraria:block/marble2"
+      }
+    ]
+  }
+}

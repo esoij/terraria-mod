@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/beach_grass"
+      },
+      {
+        "model": "terraria:block/beach_grass1"
+      },
+      {
+        "model": "terraria:block/beach_grass2"
+      }
+    ]
+  }
+}

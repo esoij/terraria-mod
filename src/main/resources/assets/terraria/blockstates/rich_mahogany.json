@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/rich_mahogany"
+      },
+      {
+        "model": "terraria:block/rich_mahogany1"
+      },
+      {
+        "model": "terraria:block/rich_mahogany2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/corrupt_grass"
+      },
+      {
+        "model": "terraria:block/corrupt_grass1"
+      },
+      {
+        "model": "terraria:block/corrupt_grass2"
+      }
+    ]
+  }
+}

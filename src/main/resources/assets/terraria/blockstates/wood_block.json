@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/wood_block"
+      },
+      {
+        "model": "terraria:block/wood_block1"
+      },
+      {
+        "model": "terraria:block/wood_block2"
+      }
+    ]
+  }
+}

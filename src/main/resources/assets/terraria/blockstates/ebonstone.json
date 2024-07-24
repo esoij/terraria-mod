@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/ebonstone"
+      },
+      {
+        "model": "terraria:block/ebonstone1"
+      },
+      {
+        "model": "terraria:block/ebonstone2"
+      }
+    ]
+  }
+}

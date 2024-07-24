@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/gold_coin_pile"
+      },
+      {
+        "model": "terraria:block/gold_coin_pile1"
+      },
+      {
+        "model": "terraria:block/gold_coin_pile2"
+      }
+    ]
+  }
+}

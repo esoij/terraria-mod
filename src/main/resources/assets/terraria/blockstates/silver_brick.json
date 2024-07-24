@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/silver_brick"
+      },
+      {
+        "model": "terraria:block/silver_brick1"
+      },
+      {
+        "model": "terraria:block/silver_brick2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/gold"
+      },
+      {
+        "model": "terraria:block/gold1"
+      },
+      {
+        "model": "terraria:block/gold2"
+      }
+    ]
+  }
+}

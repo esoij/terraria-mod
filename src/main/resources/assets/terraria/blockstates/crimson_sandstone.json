@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/crimson_sandstone"
+      },
+      {
+        "model": "terraria:block/crimson_sandstone1"
+      },
+      {
+        "model": "terraria:block/crimson_sandstone2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/red_stucco"
+      },
+      {
+        "model": "terraria:block/red_stucco1"
+      },
+      {
+        "model": "terraria:block/red_stucco2"
+      }
+    ]
+  }
+}

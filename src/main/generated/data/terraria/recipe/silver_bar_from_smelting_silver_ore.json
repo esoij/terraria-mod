@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 0,
+  "experience": 0.7,
+  "group": "silver_bar",
+  "ingredient": {
+    "item": "terraria:silver_ore"
+  },
+  "result": {
+    "id": "terraria:silver_bar"
+  }
+}

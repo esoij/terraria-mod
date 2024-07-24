@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/stone"
+      },
+      {
+        "model": "terraria:block/stone1"
+      },
+      {
+        "model": "terraria:block/stone2"
+      }
+    ]
+  }
+}

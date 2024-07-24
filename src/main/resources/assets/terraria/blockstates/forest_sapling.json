@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "half=lower": [
+      {
+        "model": "terraria:block/forest_sapling_bottom"
+      },
+      {
+        "model": "terraria:block/forest_sapling_bottom1"
+      },
+      {
+        "model": "terraria:block/forest_sapling_bottom2"
+      }
+    ],
+    "half=upper": [
+      {
+        "model": "terraria:block/forest_sapling_top"
+      },
+      {
+        "model": "terraria:block/forest_sapling_top1"
+      },
+      {
+        "model": "terraria:block/forest_sapling_top2"
+      }
+    ]
+  }
+}

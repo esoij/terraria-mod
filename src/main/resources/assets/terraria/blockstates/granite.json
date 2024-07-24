@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/granite"
+      },
+      {
+        "model": "terraria:block/granite1"
+      },
+      {
+        "model": "terraria:block/granite2"
+      }
+    ]
+  }
+}

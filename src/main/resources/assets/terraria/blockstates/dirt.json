@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/dirt"
+      },
+      {
+        "model": "terraria:block/dirt1"
+      },
+      {
+        "model": "terraria:block/dirt2"
+      }
+    ]
+  }
+}

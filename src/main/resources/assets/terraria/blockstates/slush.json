@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/slush"
+      },
+      {
+        "model": "terraria:block/slush1"
+      },
+      {
+        "model": "terraria:block/slush2"
+      }
+    ]
+  }
+}

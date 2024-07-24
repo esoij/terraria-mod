@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/spikes"
+      },
+      {
+        "model": "terraria:block/spikes1"
+      },
+      {
+        "model": "terraria:block/spikes2"
+      }
+    ]
+  }
+}

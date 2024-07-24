@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/iron"
+      },
+      {
+        "model": "terraria:block/iron1"
+      },
+      {
+        "model": "terraria:block/iron2"
+      }
+    ]
+  }
+}

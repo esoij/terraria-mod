@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "terraria:item/flower_packet_tall_grass"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/crimsand"
+      },
+      {
+        "model": "terraria:block/crimsand1"
+      },
+      {
+        "model": "terraria:block/crimsand2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/emerald"
+      },
+      {
+        "model": "terraria:block/emerald1"
+      },
+      {
+        "model": "terraria:block/emerald2"
+      }
+    ]
+  }
+}

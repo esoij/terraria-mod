@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/snow_block"
+      },
+      {
+        "model": "terraria:block/snow_block1"
+      },
+      {
+        "model": "terraria:block/snow_block2"
+      }
+    ]
+  }
+}

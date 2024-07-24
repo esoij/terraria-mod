@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/hellstone"
+      },
+      {
+        "model": "terraria:block/hellstone1"
+      },
+      {
+        "model": "terraria:block/hellstone2"
+      }
+    ]
+  }
+}

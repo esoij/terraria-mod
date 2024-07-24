@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/ash_wood"
+      },
+      {
+        "model": "terraria:block/ash_wood1"
+      },
+      {
+        "model": "terraria:block/ash_wood2"
+      }
+    ]
+  }
+}

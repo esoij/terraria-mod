@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/tall_grass"
+      },
+      {
+        "model": "terraria:block/tall_grass1"
+      },
+      {
+        "model": "terraria:block/tall_grass2"
+      },
+      {
+        "model": "terraria:block/tall_grass3"
+      },
+      {
+        "model": "terraria:block/tall_grass4"
+      },
+      {
+        "model": "terraria:block/tall_grass5"
+      }
+    ]
+  }
+}

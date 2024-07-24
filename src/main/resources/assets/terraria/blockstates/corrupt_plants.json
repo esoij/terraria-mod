@@ -1,0 +1,72 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/corrupt_plants"
+      },
+      {
+        "model": "terraria:block/corrupt_plants1"
+      },
+      {
+        "model": "terraria:block/corrupt_plants2"
+      },
+      {
+        "model": "terraria:block/corrupt_plants3"
+      },
+      {
+        "model": "terraria:block/corrupt_plants4"
+      },
+      {
+        "model": "terraria:block/corrupt_plants5"
+      },
+      {
+        "model": "terraria:block/corrupt_plants6"
+      },
+      {
+        "model": "terraria:block/corrupt_plants7"
+      },
+      {
+        "model": "terraria:block/corrupt_plants8"
+      },
+      {
+        "model": "terraria:block/corrupt_plants9"
+      },
+      {
+        "model": "terraria:block/corrupt_plants10"
+      },
+      {
+        "model": "terraria:block/corrupt_plants11"
+      },
+      {
+        "model": "terraria:block/corrupt_plants12"
+      },
+      {
+        "model": "terraria:block/corrupt_plants13"
+      },
+      {
+        "model": "terraria:block/corrupt_plants14"
+      },
+      {
+        "model": "terraria:block/corrupt_plants15"
+      },
+      {
+        "model": "terraria:block/corrupt_plants16"
+      },
+      {
+        "model": "terraria:block/corrupt_plants17"
+      },
+      {
+        "model": "terraria:block/corrupt_plants18"
+      },
+      {
+        "model": "terraria:block/corrupt_plants19"
+      },
+      {
+        "model": "terraria:block/corrupt_plants20"
+      },
+      {
+        "model": "terraria:block/corrupt_plants21"
+      }
+    ]
+  }
+}

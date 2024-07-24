@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/ash_grass"
+      },
+      {
+        "model": "terraria:block/ash_grass1"
+      },
+      {
+        "model": "terraria:block/ash_grass2"
+      }
+    ]
+  }
+}

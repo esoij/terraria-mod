@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/amethyst"
+      },
+      {
+        "model": "terraria:block/amethyst1"
+      },
+      {
+        "model": "terraria:block/amethyst2"
+      }
+    ]
+  }
+}

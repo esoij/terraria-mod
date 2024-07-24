@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/mushroom_block"
+      },
+      {
+        "model": "terraria:block/mushroom_block1"
+      },
+      {
+        "model": "terraria:block/mushroom_block2"
+      }
+    ]
+  }
+}

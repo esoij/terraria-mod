@@ -1,0 +1,158 @@
+{
+  "consume_shimmer": {
+    "sounds": [
+      "terraria:consume_shimmer"
+    ],
+    "subtitle": "subtitles.item.generic.consumed"
+  },
+  "crystal": {
+    "sounds": [
+      "terraria:crystal"
+    ],
+    "subtitle": "subtitles.item.generic.crystal"
+  },
+  "dd2_explosive_trap_explode": {
+    "sounds": [
+      "terraria:dd2_explosive_trap_explode_0",
+      "terraria:dd2_explosive_trap_explode_1",
+      "terraria:dd2_explosive_trap_explode_2"
+    ],
+    "subtitle": "subtitles.dd2_explosive_trap_explode"
+  },
+  "dig_break": {
+    "sounds": [
+      "terraria:dig0",
+      "terraria:dig1",
+      "terraria:dig2"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "dig_fall": {
+    "sounds": [
+      "terraria:dig0",
+      "terraria:dig1",
+      "terraria:dig2"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "dig_hit": {
+    "sounds": [
+      "terraria:dig0",
+      "terraria:dig1",
+      "terraria:dig2"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "dig_place": {
+    "sounds": [
+      "terraria:dig0",
+      "terraria:dig1",
+      "terraria:dig2"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "dig_step": {
+    "sounds": [
+      "terraria:dig0",
+      "terraria:dig1",
+      "terraria:dig2"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "door_closed": {
+    "sounds": [
+      "terraria:door_closed"
+    ],
+    "subtitle": "subtitles.block.generic.door_closed"
+  },
+  "door_opened": {
+    "sounds": [
+      "terraria:door_opened"
+    ],
+    "subtitle": "subtitles.block.generic.door_opened"
+  },
+  "drink": {
+    "sounds": [
+      "terraria:drink"
+    ],
+    "subtitle": "subtitles.item.generic.drink"
+  },
+  "eat": {
+    "sounds": [
+      "terraria:eat"
+    ],
+    "subtitle": "subtitles.item.generic.eat"
+  },
+  "grass_break": {
+    "sounds": [
+      "terraria:grass"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "grass_fall": {
+    "sounds": [
+      "terraria:grass"
+    ],
+    "subtitle": "subtitles.block.generic.fall"
+  },
+  "grass_hit": {
+    "sounds": [
+      "terraria:grass"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "grass_place": {
+    "sounds": [
+      "terraria:grass"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "grass_step": {
+    "sounds": [
+      "terraria:grass"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "ice_break": {
+    "sounds": [
+      "terraria:ice"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "ice_hit": {
+    "sounds": [
+      "terraria:ice"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "snow_break": {
+    "sounds": [
+      "terraria:snow",
+      "terraria:snow1"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "snow_hit": {
+    "sounds": [
+      "terraria:snow",
+      "terraria:snow1"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "tink_break": {
+    "sounds": [
+      "terraria:tink0",
+      "terraria:tink1",
+      "terraria:tink2"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "tink_hit": {
+    "sounds": [
+      "terraria:tink0",
+      "terraria:tink1",
+      "terraria:tink2"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  }
+}

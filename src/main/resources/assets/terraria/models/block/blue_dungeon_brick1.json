@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "terraria:block/blue_dungeon_brick1"
+  }
+}

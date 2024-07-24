@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/palm_wood"
+      },
+      {
+        "model": "terraria:block/palm_wood1"
+      },
+      {
+        "model": "terraria:block/palm_wood2"
+      }
+    ]
+  }
+}

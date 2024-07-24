@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "terraria:block/boreal_tree_log_horizontal",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "terraria:block/boreal_tree_log_horizontal1",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "terraria:block/boreal_tree_log_horizontal2",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "terraria:block/boreal_tree_log"
+      },
+      {
+        "model": "terraria:block/boreal_tree_log1"
+      },
+      {
+        "model": "terraria:block/boreal_tree_log2"
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "terraria:block/boreal_tree_log_horizontal",
+        "x": 90
+      },
+      {
+        "model": "terraria:block/boreal_tree_log_horizontal1",
+        "x": 90
+      },
+      {
+        "model": "terraria:block/boreal_tree_log_horizontal2",
+        "x": 90
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "terraria:block/torch"
+      },
+      "when": {
+        "north": "true",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_standing"
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "true",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "true",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_standing",
+        "uvlock": true
+      },
+      "when": {
+        "down": "true",
+        "lit": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_burnt"
+      },
+      "when": {
+        "north": "true",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_standing_burnt"
+      },
+      "when": {
+        "down": "false",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_burnt",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_burnt",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "true",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_burnt",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "true",
+        "lit": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "terraria:block/torch_standing_burnt",
+        "uvlock": true
+      },
+      "when": {
+        "down": "true",
+        "lit": "false"
+      }
+    }
+  ]
+}

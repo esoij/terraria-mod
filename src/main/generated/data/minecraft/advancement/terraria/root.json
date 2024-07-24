@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "terraria:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancements.collector.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "terraria:advancementcategorycollector"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.collector.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

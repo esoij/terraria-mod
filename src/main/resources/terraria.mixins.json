@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "esoij.terrariamod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "core.component.DataComponentsMixin",
+    "server.MinecraftServerMixin",
+    "world.ContainerMixin",
+    "world.damagesource.CombatRulesMixin",
+    "world.entity.player.PlayerMixin",
+    "world.food.FoodDataMixin",
+    "world.item.ItemStackMixin",
+    "world.level.LevelMixin",
+    "world.level.block.piston.PistonStructureResolverMixin",
+    "world.level.storage.PrimaryLevelDataMixin",
+    "world.level.storage.WorldDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "client.gui.GuiMixin",
+    "client.model.geom.LayerDefinitionsMixin",
+    "client.multiplayer.ClientPacketListenerMixin",
+    "client.renderer.SheetsMixin"
+  ]
+}

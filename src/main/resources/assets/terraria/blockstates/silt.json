@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/silt"
+      },
+      {
+        "model": "terraria:block/silt1"
+      },
+      {
+        "model": "terraria:block/silt2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/diamond"
+      },
+      {
+        "model": "terraria:block/diamond1"
+      },
+      {
+        "model": "terraria:block/diamond2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/tree_ash_leaves"
+      },
+      {
+        "model": "terraria:block/tree_ash_leaves1"
+      },
+      {
+        "model": "terraria:block/tree_ash_leaves2"
+      }
+    ]
+  }
+}

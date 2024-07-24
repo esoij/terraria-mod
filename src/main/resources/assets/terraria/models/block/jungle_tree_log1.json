@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "terraria:block/jungle_tree_log_top",
+    "side": "terraria:block/jungle_tree_log1"
+  }
+}

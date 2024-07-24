@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/mushroom_grass"
+      },
+      {
+        "model": "terraria:block/mushroom_grass1"
+      },
+      {
+        "model": "terraria:block/mushroom_grass2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/pink_slime_block"
+      },
+      {
+        "model": "terraria:block/pink_slime_block1"
+      },
+      {
+        "model": "terraria:block/pink_slime_block2"
+      }
+    ]
+  }
+}

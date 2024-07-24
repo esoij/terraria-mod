@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 0,
+  "experience": 0.7,
+  "group": "gold_bar",
+  "ingredient": {
+    "item": "terraria:gold_ore"
+  },
+  "result": {
+    "id": "terraria:gold_bar"
+  }
+}

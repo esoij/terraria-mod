@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/sand"
+      },
+      {
+        "model": "terraria:block/sand1"
+      },
+      {
+        "model": "terraria:block/sand2"
+      }
+    ]
+  }
+}

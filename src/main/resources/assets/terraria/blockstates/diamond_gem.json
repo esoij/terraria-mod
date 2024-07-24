@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "facing=down": [
+      {
+        "model": "terraria:block/diamond_gem",
+        "x": 180
+      },
+      {
+        "model": "terraria:block/diamond_gem1",
+        "x": 180
+      },
+      {
+        "model": "terraria:block/diamond_gem2",
+        "x": 180
+      }
+    ],
+    "facing=east": [
+      {
+        "model": "terraria:block/diamond_gem",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "terraria:block/diamond_gem1",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "terraria:block/diamond_gem2",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "facing=north": [
+      {
+        "model": "terraria:block/diamond_gem",
+        "x": 90
+      },
+      {
+        "model": "terraria:block/diamond_gem1",
+        "x": 90
+      },
+      {
+        "model": "terraria:block/diamond_gem2",
+        "x": 90
+      }
+    ],
+    "facing=south": [
+      {
+        "model": "terraria:block/diamond_gem",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "terraria:block/diamond_gem1",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "terraria:block/diamond_gem2",
+        "x": 90,
+        "y": 180
+      }
+    ],
+    "facing=up": [
+      {
+        "model": "terraria:block/diamond_gem"
+      },
+      {
+        "model": "terraria:block/diamond_gem1"
+      },
+      {
+        "model": "terraria:block/diamond_gem2"
+      }
+    ],
+    "facing=west": [
+      {
+        "model": "terraria:block/diamond_gem",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "terraria:block/diamond_gem1",
+        "x": 90,
+        "y": 270
+      },
+      {
+        "model": "terraria:block/diamond_gem2",
+        "x": 90,
+        "y": 270
+      }
+    ]
+  }
+}

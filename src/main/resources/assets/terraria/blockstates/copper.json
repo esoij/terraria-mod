@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/copper"
+      },
+      {
+        "model": "terraria:block/copper1"
+      },
+      {
+        "model": "terraria:block/copper2"
+      }
+    ]
+  }
+}

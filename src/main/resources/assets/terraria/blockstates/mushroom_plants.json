@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/mushroom_plants"
+      },
+      {
+        "model": "terraria:block/mushroom_plants1"
+      },
+      {
+        "model": "terraria:block/mushroom_plants2"
+      },
+      {
+        "model": "terraria:block/mushroom_plants3"
+      },
+      {
+        "model": "terraria:block/mushroom_plants4"
+      }
+    ]
+  }
+}

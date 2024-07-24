@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "terraria:block/jungle_tree_leaves1"
+  }
+}

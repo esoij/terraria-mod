@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/demonite"
+      },
+      {
+        "model": "terraria:block/demonite1"
+      },
+      {
+        "model": "terraria:block/demonite2"
+      }
+    ]
+  }
+}

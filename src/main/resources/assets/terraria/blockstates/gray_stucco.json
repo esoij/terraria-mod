@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "terraria:block/gray_stucco"
+      },
+      {
+        "model": "terraria:block/gray_stucco1"
+      },
+      {
+        "model": "terraria:block/gray_stucco2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+execute if score Global r matches 1 run execute if score Global dirs1 matches 1.. run function glass_pipes:execute027_ln53
+execute if score Global r matches 2 run execute if score Global dirs2 matches 1.. run function glass_pipes:execute030_ln53
