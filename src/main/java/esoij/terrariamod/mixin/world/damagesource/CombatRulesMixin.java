@@ -28,6 +28,6 @@ public class CombatRulesMixin {
         } else {
             armour = damage - armorValue * 0.5f;// <= 0 ? 1 : damage - armorValue * 0.5f;
         }
-        return armour * (1 - armorToughness / 100);
+        return (int)(armour * (1 - armorToughness / 100) < 1 && !(entity instanceof Player) ? 1 : armour * (1 - armorToughness / 100));
     }
 }

@@ -93,6 +93,5 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModBlockTags.JUNGLE_GRASS_CAN_SPREAD_TO).add(MUD);
         getOrCreateTagBuilder(ModBlockTags.MINEABLE_WITH_PICKAXE).addTag(BlockTags.MINEABLE_WITH_PICKAXE);
         getOrCreateTagBuilder(ModBlockTags.MINEABLE_WITH_PICKAXE).addTag(BlockTags.MINEABLE_WITH_SHOVEL);
-        getOrCreateTagBuilder(ModBlockTags.MINEABLE_WITH_PICKAXE).addTag(BlockTags.MINEABLE_WITH_HOE);
     }
 }

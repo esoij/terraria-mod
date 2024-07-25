@@ -309,6 +309,7 @@ public class ModCreativeModeTabs extends CreativeModeTabs {
                             output.accept(ModItems.MISC);
                             output.accept(ModItems.COLLECTOR);
                             output.accept(ModItems.TIMBER);
+                            output.accept(ModItems.OBTAIN_HAMMER);
                             output.accept(GRASS_BLOCK);
                             output.accept(BEACH_GRASS_BLOCK);
                             output.accept(CORRUPT_GRASS_BLOCK);

@@ -37,6 +37,7 @@ public class ModItems extends Items {
     public static final Item MISC = registerItem(                              -1,    "creativemodetabiconmisc",            new Item(                                                     new Properties()));
     public static final Item COLLECTOR = registerItem(                         -1,    "advancementcategorycollector",       new Item(                                                     new Properties()));
     public static final Item TIMBER = registerItem(                            -1,    "advancementicontimber",              new Item(                                                     new Properties()));
+    public static final Item OBTAIN_HAMMER = registerItem(                     -1,    "advancementiconobtainhammer",        new Item(                                                     new Properties()));
     public static final Item GRASS_BLOCK = registerItem(                       -1,    "grass_block",                        new ItemNameBlockItem(ModBlocks.GRASS,                        new Properties()));
     public static final Item BEACH_GRASS_BLOCK = registerItem(                 -1,    "beach_grass_block",                  new ItemNameBlockItem(ModBlocks.BEACH_GRASS,                  new Properties()));
     public static final Item CORRUPT_GRASS_BLOCK = registerItem(               -1,    "corrupt_grass_block",                new ItemNameBlockItem(ModBlocks.CORRUPT_GRASS,                new Properties()));

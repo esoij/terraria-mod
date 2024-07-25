@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 15,
-    "description": "terraria connected textures for fusion"
+    "pack_format": 34,
+    "description": {
+      "translate": "resourcePack.terraria.terraria-fusion.description"
+    }
   }
 }

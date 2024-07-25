@@ -21,7 +21,7 @@ public class WeaponExplosion extends ExplosionDamageCalculator {
     }
     @Override
     public float getKnockbackMultiplier(Entity entity) {
-        return 0.0F;
+        return entity != attacker ? super.getKnockbackMultiplier(entity) / 2 : 0;
     }
     @Override
     public boolean shouldBlockExplode(Explosion explosion, BlockGetter reader, BlockPos pos, BlockState state, float power) {

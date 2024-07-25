@@ -12,11 +12,9 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.loot.LootTable;
 import org.jetbrains.annotations.Nullable;
@@ -105,5 +103,19 @@ public abstract class TerrariaMonster extends Monster {
     @Override
     public boolean isWithinMeleeAttackRange(LivingEntity entity) {
         return this.getHitbox().intersects(entity.getHitbox());
+    }
+    /**
+     * Entity won't drop experience points if this returns false
+     */
+    @Override
+    public boolean shouldDropExperience() {
+        return true;
+    }
+    /**
+     * Entity won't drop items if this returns false
+     */
+    @Override
+    protected boolean shouldDropLoot() {
+        return true;
     }
 }

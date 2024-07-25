@@ -45,7 +45,7 @@ public abstract class DataComponentsMixin {
     @Inject(method = "<clinit>", at=@At("TAIL"))
     private static void clinit(CallbackInfo ci) {
         MAX_STACK_SIZE = register(
-                "max_stack_size", p_333287_ -> p_333287_.persistent(ExtraCodecs.intRange(1, Integer.MAX_VALUE)).networkSynchronized(ByteBufCodecs.VAR_INT)
+                "max_stack_size", p_333287_ -> p_333287_.persistent(ExtraCodecs.intRange(Integer.MIN_VALUE, Integer.MAX_VALUE)).networkSynchronized(ByteBufCodecs.VAR_INT)
         );
         COMMON_ITEM_COMPONENTS = DataComponentMap.builder()
                 .set(MAX_STACK_SIZE, 9999)

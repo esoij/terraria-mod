@@ -5,6 +5,7 @@ import esoij.terrariamod.client.model.AngryBonesModel;
 import esoij.terrariamod.client.model.geom.ModModelLayers;
 import esoij.terrariamod.resources.ResourceLocationHelper;
 import esoij.terrariamod.world.entity.monster.AngryBones;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
@@ -30,7 +31,7 @@ public class AngryBonesRenderer<T extends AngryBones> extends HumanoidMobRendere
     }
     @Override
     protected boolean shouldShowName(T entity) {
-        return true;
+        return !Minecraft.getInstance().options.hideGui;
     }
     /**
      * Returns the location of an entity's texture.

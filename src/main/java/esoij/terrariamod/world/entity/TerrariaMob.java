@@ -15,6 +15,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.storage.loot.LootTable;
 import org.jetbrains.annotations.Nullable;
@@ -93,9 +94,23 @@ public abstract class TerrariaMob extends Mob {
     protected void dropCustomDeathLoot(ServerLevel level, DamageSource damageSource, boolean recentlyHit) {
         super.dropCustomDeathLoot(level, damageSource, recentlyHit);
         Entity entity = damageSource.getEntity();
-        if (entity instanceof ServerPlayer player && (player.getStats().getValue(Stats.ENTITY_KILLED, this.getType()) % 50) - 1 == 0 && (player.getStats().getValue(Stats.ENTITY_KILLED, this.getType())) != 0) {
-            this.spawnAtLocation(this::banner);
+        if ((entity instanceof ServerPlayer player) && (((player.getStats().getValue(Stats.ENTITY_KILLED, this.getType()) % 50) - 1) == 0) && ((player.getStats().getValue(Stats.ENTITY_KILLED, this.getType())) != 0)) {
+            this.spawnAtLocation(new ItemStack(this::banner, 1), 0);
         }
     }
     public abstract Item banner();
+    /**
+     * Entity won't drop experience points if this returns false
+     */
+    @Override
+    public boolean shouldDropExperience() {
+        return true;
+    }
+    /**
+     * Entity won't drop items if this returns false
+     */
+    @Override
+    protected boolean shouldDropLoot() {
+        return true;
+    }
 }

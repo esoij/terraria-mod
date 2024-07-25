@@ -28,7 +28,7 @@ public class ItemStackMixin {
                 () -> RecordCodecBuilder.create(
                         instance -> instance.group(
                                         ITEM_NON_AIR_CODEC.fieldOf("id").forGetter(ItemStack::getItemHolder),
-                                        ExtraCodecs.intRange(1, 9999).fieldOf("count").orElse(1).forGetter(ItemStack::getCount),
+                                        ExtraCodecs.intRange(Integer.MIN_VALUE, Integer.MAX_VALUE).fieldOf("count").orElse(1).forGetter(ItemStack::getCount),
                                         DataComponentPatch.CODEC.optionalFieldOf("components", DataComponentPatch.EMPTY).forGetter(itemStack -> itemStack.components.asPatch())
                                 )
                                 .apply(instance, ItemStack::new)

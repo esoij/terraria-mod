@@ -99,6 +99,7 @@ public class ModItemModelGenerators extends FabricModelProvider {
         thiz.generateFlatItem(MUD_BLOCK, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(MUSHROOM, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(OBSIDIAN_SKIN_POTION, FLAT_HANDHELD_ITEM);
+        thiz.generateFlatItem(OBTAIN_HAMMER, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(PALM_WOOD, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(PINK_BRICK, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(PINK_GEL, FLAT_HANDHELD_ITEM);

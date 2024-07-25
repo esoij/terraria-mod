@@ -10,9 +10,9 @@ import net.minecraft.world.level.block.Block;
 import java.util.function.Supplier;
 
 public enum ModTiers implements Tier {
-    WOOD(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 59, 2.0F, 0.0F, 15, () -> Ingredient.of(ModItems.WOOD)),
-    IRON(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 6.0F, 0.0F, 14, () -> Ingredient.of(ModItems.IRON_INGOT)),
-    HELLSTONE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 250, 6.0F, 0.0F, 14, () -> Ingredient.of(ModItems.HELLSTONE));
+    WOOD(BlockTags.INCORRECT_FOR_WOODEN_TOOL, 59, 2.0F, -1.0F, 15, () -> Ingredient.of(ModItems.WOOD)),
+    IRON(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 6.0F, -1.0F, 14, () -> Ingredient.of(ModItems.IRON_INGOT)),
+    HELLSTONE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 250, 6.0F, -1.0F, 14, () -> Ingredient.of(ModItems.HELLSTONE));
     private final TagKey<Block> incorrectBlocksForDrops;
     private final int uses;
     private final float speed;

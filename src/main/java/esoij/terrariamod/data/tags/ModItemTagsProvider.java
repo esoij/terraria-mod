@@ -31,6 +31,6 @@ public class ModItemTagsProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ModItemTags.DISPLAYS_DEPTH).add(DEPTH_METER);
         getOrCreateTagBuilder(ModItemTags.DISPLAYS_TIME).add(COPPER_WATCH, GOLD_WATCH, SILVER_WATCH);
         getOrCreateTagBuilder(ModItemTags.HAMMERS).add(IRON_HAMMER);
-        getOrCreateTagBuilder(ModItemTags.WOOD).add(ASH_WOOD, BOREAL_WOOD, PALM_WOOD, RICH_MAHOGANY, WOOD);
+        getOrCreateTagBuilder(ModItemTags.WOOD).add(WOOD, /*619, */ PALM_WOOD, RICH_MAHOGANY, BOREAL_WOOD, /*2260, 621, 911, 1729, */ ASH_WOOD);
     }
 }
