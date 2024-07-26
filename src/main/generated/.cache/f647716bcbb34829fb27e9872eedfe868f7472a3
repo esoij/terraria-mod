@@ -1,3 +1,4 @@
-// 1.21	2024-07-24T12:42:50.2139811	terraria/Advancements
-5ec2693e39653d71f8f4752ec8fbc91b32df49c0 data\minecraft\advancement\terraria\root.json
-9678ddfa0fe8fe911d2d493db9dadf5456f2985b data\minecraft\advancement\story\timber.json
+// 1.21	2024-07-26T10:21:02.4728762	terraria/Advancements
+5ec2693e39653d71f8f4752ec8fbc91b32df49c0 data\minecraft\advancement\collector\root.json
+6656233502b3756ae09f3c39b66f3a6e57204145 data\minecraft\advancement\collector\obtain_hammer.json
+a892932be9de1e9e4d3015581382ba90bb576ef7 data\minecraft\advancement\collector\timber.json

@@ -1,17 +1,17 @@
-// 1.21	2024-07-24T12:42:50.2189786	terraria/Tags for minecraft:item
+// 1.21	2024-07-26T10:21:02.4758762	terraria/Tags for minecraft:item
+442491f1c21f31b7f3d43c77d1200d5a33b19a93 data\terraria\tags\item\wood.json
 7ed54dc777e75264a8c95ebf374f58be5fbb403d data\minecraft\tags\item\leg_armor.json
-0bc2c52a7853306793802004a4685a1cbbf86a4e data\minecraft\tags\item\enchantable\mining_loot.json
+17a1442f5450633b1ab3263eeabf76caedfa1764 data\minecraft\tags\item\pickaxes.json
+17a1442f5450633b1ab3263eeabf76caedfa1764 data\minecraft\tags\item\cluster_max_harvestables.json
 089643b829cfd6891bb1af2b44492254abd4e07c data\minecraft\tags\item\swords.json
-38a2a814b0c155b0ad706faa2868a0f8f8e7dffb data\minecraft\tags\item\chest_armor.json
-286b974b4452b1ec8072a1d72f730763891e1671 data\terraria\tags\item\wood.json
-0bc2c52a7853306793802004a4685a1cbbf86a4e data\minecraft\tags\item\breaks_decorated_pots.json
-5a217ce4a6a8197ff7326880914e703d6a2797ca data\terraria\tags\item\hammers.json
+0bc2c52a7853306793802004a4685a1cbbf86a4e data\minecraft\tags\item\enchantable\mining.json
 94bd84a77c86e0845f586b03dc14dbebdc759c8f data\terraria\tags\item\dislplays_depth.json
 048deb02f154f7feb387afdb437b2f41ac10c4eb data\minecraft\tags\item\foot_armor.json
-1a5409a0050767a84d80b1ec96be5ac43a4a8810 data\minecraft\tags\item\axes.json
-17a1442f5450633b1ab3263eeabf76caedfa1764 data\minecraft\tags\item\cluster_max_harvestables.json
+0bc2c52a7853306793802004a4685a1cbbf86a4e data\minecraft\tags\item\breaks_decorated_pots.json
+0bc2c52a7853306793802004a4685a1cbbf86a4e data\minecraft\tags\item\enchantable\mining_loot.json
+38a2a814b0c155b0ad706faa2868a0f8f8e7dffb data\minecraft\tags\item\chest_armor.json
 cba6ab27c5b84762185e00933db42c92ef26fdd3 data\minecraft\tags\item\head_armor.json
-17a1442f5450633b1ab3263eeabf76caedfa1764 data\minecraft\tags\item\pickaxes.json
 5778800df0a8a1ae944872e2baad526f1a7d7042 data\terraria\tags\item\displays_time.json
+1a5409a0050767a84d80b1ec96be5ac43a4a8810 data\minecraft\tags\item\axes.json
 0bc2c52a7853306793802004a4685a1cbbf86a4e data\minecraft\tags\item\enchantable\durability.json
-0bc2c52a7853306793802004a4685a1cbbf86a4e data\minecraft\tags\item\enchantable\mining.json
+5a217ce4a6a8197ff7326880914e703d6a2797ca data\terraria\tags\item\hammers.json

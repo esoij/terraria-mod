@@ -44,7 +44,7 @@ public class AngryBonesModel<T extends Mob> extends HumanoidModel<T> {
     public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
         super.setupAnim(entity, limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch);
         ItemStack itemStack = entity.getMainHandItem();
-        if (entity.isAggressive() && (itemStack.isEmpty() || !itemStack.is(Items.BOW))) {
+        if (entity.isAggressive() && (itemStack.isEmpty())) {
             float f = Mth.sin(this.attackTime * (float) Math.PI);
             float g = Mth.sin((1.0F - (1.0F - this.attackTime) * (1.0F - this.attackTime)) * (float) Math.PI);
             this.rightArm.zRot = 0.0F;

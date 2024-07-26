@@ -5,6 +5,7 @@ import esoij.terrariamod.client.model.GreenSlimeModel;
 import esoij.terrariamod.client.model.geom.ModModelLayers;
 import esoij.terrariamod.resources.ResourceLocationHelper;
 import esoij.terrariamod.world.entity.GreenSlime;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
@@ -24,7 +25,7 @@ public class GreenSlimeRenderer extends MobRenderer<GreenSlime, GreenSlimeModel<
     }
     @Override
     protected boolean shouldShowName(GreenSlime entity) {
-        return true;
+        return !Minecraft.getInstance().options.hideGui;
     }
     @Override
     public void render(GreenSlime entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {

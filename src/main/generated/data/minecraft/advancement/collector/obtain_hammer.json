@@ -1,11 +1,11 @@
 {
-  "parent": "minecraft:terraria/root",
+  "parent": "minecraft:collector/timber",
   "criteria": {
-    "get_wood": {
+    "get_hammer": {
       "conditions": {
         "items": [
           {
-            "items": "#terraria:wood"
+            "items": "#terraria:hammers"
           }
         ]
       },
@@ -14,19 +14,19 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.collector.timber.description"
+      "translate": "advancements.collector.obtain_hammer.description"
     },
     "icon": {
       "count": 1,
-      "id": "terraria:advancementicontimber"
+      "id": "terraria:advancementiconobtainhammer"
     },
     "title": {
-      "translate": "advancements.collector.timber.title"
+      "translate": "advancements.collector.obtain_hammer.title"
     }
   },
   "requirements": [
     [
-      "get_wood"
+      "get_hammer"
     ]
   ],
   "sends_telemetry_event": true

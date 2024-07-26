@@ -5,6 +5,7 @@ import esoij.terrariamod.client.model.PinkyModel;
 import esoij.terrariamod.client.model.geom.ModModelLayers;
 import esoij.terrariamod.resources.ResourceLocationHelper;
 import esoij.terrariamod.world.entity.Pinky;
+import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
@@ -24,7 +25,7 @@ public class PinkyRenderer extends MobRenderer<Pinky, PinkyModel<Pinky>> {
     }
     @Override
     protected boolean shouldShowName(Pinky entity) {
-        return true;
+        return !Minecraft.getInstance().options.hideGui;
     }
     @Override
     public void render(Pinky entity, float entityYaw, float partialTicks, PoseStack poseStack, MultiBufferSource buffer, int packedLight) {

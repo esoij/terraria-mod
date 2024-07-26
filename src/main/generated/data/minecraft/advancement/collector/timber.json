@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:collector/root",
+  "criteria": {
+    "get_wood": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#terraria:wood"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.collector.timber.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "terraria:advancementicontimber"
+    },
+    "title": {
+      "translate": "advancements.collector.timber.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_wood"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

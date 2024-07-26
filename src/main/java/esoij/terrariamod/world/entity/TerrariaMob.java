@@ -93,11 +93,14 @@ public abstract class TerrariaMob extends Mob {
     @Override
     protected void dropCustomDeathLoot(ServerLevel level, DamageSource damageSource, boolean recentlyHit) {
         super.dropCustomDeathLoot(level, damageSource, recentlyHit);
-        Entity entity = damageSource.getEntity();
-        if ((entity instanceof ServerPlayer player) && (((player.getStats().getValue(Stats.ENTITY_KILLED, this.getType()) % 50) - 1) == 0) && ((player.getStats().getValue(Stats.ENTITY_KILLED, this.getType())) != 0)) {
-            this.spawnAtLocation(new ItemStack(this::banner, 1), 0);
+        if (this.banner() != null) {
+            Entity entity = damageSource.getEntity();
+            if ((entity instanceof ServerPlayer player) && (((player.getStats().getValue(Stats.ENTITY_KILLED, this.getType()) % 50) - 1) == 0) && ((player.getStats().getValue(Stats.ENTITY_KILLED, this.getType())) != 0)) {
+                this.spawnAtLocation(new ItemStack(this::banner, 1), 0);
+            }
         }
     }
+    @Nullable
     public abstract Item banner();
     /**
      * Entity won't drop experience points if this returns false

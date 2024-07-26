@@ -1,9 +1,9 @@
 {
   "values": [
-    "terraria:ash_wood",
-    "terraria:boreal_wood",
+    "terraria:wood",
     "terraria:palm_wood",
     "terraria:rich_mahogany",
-    "terraria:wood"
+    "terraria:boreal_wood",
+    "terraria:ash_wood"
   ]
 }
