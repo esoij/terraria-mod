@@ -25,9 +25,8 @@ public class CombatRulesMixin {
                 case HARD -> 1f;
             };
             armour = damage - armorValue * f;// <= 0 ? 1 : (damage - (armorValue * f));
-        } else {
-            armour = damage - armorValue * 0.5f;// <= 0 ? 1 : damage - armorValue * 0.5f;
-        }
-        return (int)(armour * (1 - armorToughness / 100) < 1 && !(entity instanceof Player) ? 1 : armour * (1 - armorToughness / 100));
+        } else armour = damage - armorValue * 0.5f;// <= 0 ? 1 : damage - armorValue * 0.5f;
+        int damage1 = Math.round(armour * (1 - armorToughness / 100));
+        return entity instanceof Player ? damage1 : damage1 <= 0 ? 1 : damage1;
     }
 }
