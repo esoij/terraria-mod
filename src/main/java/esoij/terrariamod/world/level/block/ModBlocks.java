@@ -57,6 +57,8 @@ public class ModBlocks extends Blocks {
     public static final Block SILVER = register(             9.0, "silver", new Block(of().mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(3.0F).sound(ModSoundType.TINK)));
     public static final Block WOODEN_DOOR = register(        woodenDoor, "wooden_door", new DoorBlock(ModBlockSetType.WOOD, of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(ModSoundType.DIG).ignitedByLava()));
 
+    public static final Block BOTTLE = register(             13.0, "bottle", new Block(of().strength(1).sound(ModSoundType.GLASS)));
+
     public static final Block FURNACE = register(            17.0, "furnace", new Block(of().mapColor(MapColor.STONE).requiresCorrectToolForDrops().strength(3.0F).sound(ModSoundType.DIG)));
     public static final Block WORK_BENCH = register(         18.0, "work_bench", new Block(of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.5F).sound(ModSoundType.WOOD).ignitedByLava()));
 

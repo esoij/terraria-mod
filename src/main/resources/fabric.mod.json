@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "terraria",
 	"version": "${version}",
-	"name": "terraria",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Terraria",
+	"description": "Terraria, now in Minecraft!",
 	"authors": [
-		"Me!"
+		"esoij"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

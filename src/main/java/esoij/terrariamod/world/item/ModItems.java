@@ -17,6 +17,9 @@ import java.util.Optional;
 
 import static esoij.terrariamod.ModSharedConstants.IDE;
 
+//IDs 1-234:   1.0.0
+//ID  235:     1.0.2
+//IDs 236-238: 1.0.3
 public class ModItems extends Items {
     public static final Logger LOGGER = LogUtils.getLogger();
     private static final ImmutableList.Builder<FoodProperties.PossibleEffect> effects = ImmutableList.builder();
@@ -94,6 +97,8 @@ public class ModItems extends Items {
     public static final Item ACORN = registerItem(                              27,   "acorn",                              new ItemNameBlockItem(ModBlocks.FOREST_SAPLING,               new Properties()));
     public static final Item LESSER_HEALING_POTION = registerItem(              28,   "lesser_healing_potion",              new HealingItem(                                              new Properties(), 17, 50, 60));
     public static final Item LIFE_CRYSTAL = registerItem(                       29,   "life_crystal",                       new LifeCrystalItem(                                          new Properties().rarity(Rarity.UNCOMMON).fireResistant(), 20, 400));
+
+    public static final Item BOTTLE = registerItem(                             31,   "bottle",                             new ItemNameBlockItem(ModBlocks.BOTTLE,                       new Properties()));
 
     public static final Item FURNACE = registerItem(                            33,   "furnace",                            new WorkstationItem(ModBlocks.FURNACE,                        new Properties()));
 

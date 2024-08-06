@@ -3,8 +3,6 @@ package esoij.terrariamod;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.logging.LogUtils;
 import esoij.terrariamod.commands.ModCommands;
-import esoij.terrariamod.data.TerrariaDataGenerator;
-import esoij.terrariamod.data.registries.ModRegistries;
 import esoij.terrariamod.network.protocol.game.ModGameProtocols;
 import esoij.terrariamod.stats.ModStats;
 import esoij.terrariamod.tags.ModItemTags;
@@ -18,12 +16,10 @@ import esoij.terrariamod.world.item.ModItems;
 import esoij.terrariamod.world.item.crafting.ModRecipeSerializer;
 import esoij.terrariamod.world.item.crafting.ModRecipeType;
 import esoij.terrariamod.world.level.biome.ModBiomes;
-import esoij.terrariamod.world.level.block.CorruptBlocks;
 import esoij.terrariamod.world.level.block.ModBlockTypes;
 import esoij.terrariamod.world.level.block.entity.ModBlockEntityType;
 import net.fabricmc.api.ModInitializer;
 
-import net.minecraft.core.RegistrySetBuilder;
 import org.slf4j.Logger;
 
 // (20/(4+item_attack_speed))/20 is the amount of time in seconds it takes for weapon to charge up

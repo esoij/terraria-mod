@@ -31,6 +31,7 @@ public class ModItemModelGenerators extends FabricModelProvider {
         thiz.generateFlatItem(BLOCKS, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(BLUE_BRICK, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(BOREAL_WOOD, FLAT_HANDHELD_ITEM);
+        thiz.generateFlatItem(BOTTLE, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(CHEST, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(CLAY_BLOCK, FLAT_HANDHELD_ITEM);
         thiz.generateFlatItem(COLLECTOR, FLAT_HANDHELD_ITEM);

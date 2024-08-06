@@ -1,6 +1,5 @@
 package esoij.terrariamod.data.loot.packs;
 
-import esoij.terrariamod.world.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 import net.minecraft.core.HolderLookup;
@@ -30,6 +29,7 @@ public class ModBlockLoot extends FabricBlockLootTableProvider {
         this.add(BOREAL_TREE_LEAVES, block -> this.createLeavesDrops(block, FOREST_SAPLING, NORMAL_LEAVES_SAPLING_CHANCES));
         this.add(BOREAL_TREE_LOG, block -> this.createSingleItemTableWithSilkTouch(block, BOREAL_WOOD));
         this.dropSelf(BOREAL_WOOD);
+        this.dropSelf(BOTTLE);
         this.add(CHEST, this::createNameableBlockEntityTable);
         this.dropSelf(CLAY_BLOCK);
         this.dropSelf(COPPER);

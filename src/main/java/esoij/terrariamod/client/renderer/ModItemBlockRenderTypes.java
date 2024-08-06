@@ -20,6 +20,7 @@ public class ModItemBlockRenderTypes {
         cutout(ModBlocks.BOREAL_SAPLING);
         cutout(ModBlocks.WOODEN_DOOR);
         cutout(ModBlocks.SPIKES);
+        cutout(ModBlocks.BOTTLE);
     }
     public static void cutout(Block block) {
         BlockRenderLayerMap.INSTANCE.putBlock(block, RenderType.cutout());

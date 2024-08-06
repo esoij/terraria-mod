@@ -144,6 +144,7 @@ public class ModCreativeModeTabs extends CreativeModeTabs {
                             output.accept(CHEST);
                             output.accept(GOLD_CHEST);
                             output.accept(FLOWER_PACKET_TALL_GRASS);
+                            output.accept(BOTTLE);
                             output.accept(ANGRY_BONES_BANNER);
                             output.accept(SLIME_BANNER);
                             output.accept(DUNGEON_SLIME_BANNER);
@@ -235,6 +236,7 @@ public class ModCreativeModeTabs extends CreativeModeTabs {
                             output.accept(ACORN);
                             output.accept(CHEST);
                             output.accept(GOLD_CHEST);
+                            output.accept(BOTTLE);
                             output.accept(DIRT_BLOCK);
                             output.accept(STONE_BLOCK);
                             output.accept(CLAY_BLOCK);

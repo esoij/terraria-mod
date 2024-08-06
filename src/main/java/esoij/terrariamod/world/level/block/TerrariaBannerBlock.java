@@ -8,6 +8,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.LevelReader;
@@ -46,7 +47,7 @@ public class TerrariaBannerBlock extends Block {
     }
     @Override
     protected void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
-        for (LivingEntity entity : level.getEntitiesOfClass(LivingEntity.class, new AABB(pos.getX() - 85, pos.getY() - 62.5, pos.getZ() - 85, pos.getX() + 85, pos.getY() + 62.5, pos.getZ() + 85))) {
+        for (LivingEntity entity : level.getEntitiesOfClass(Player.class, new AABB(pos.getX() - 85, pos.getY() - 62.5, pos.getZ() - 85, pos.getX() + 85, pos.getY() + 62.5, pos.getZ() + 85))) {
             entity.addEffect(new MobEffectInstance(ModMobEffects.MONSTER_BANNER, 10, 1));
         }
     }

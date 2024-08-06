@@ -1,0 +1,87 @@
+{
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "terraria:block/bottle",
+    "1": "terraria:block/bottle_bottom",
+    "2": "terraria:block/bottle_top",
+    "3": "terraria:block/bottle_top1",
+    "4": "terraria:block/bottle_bottom1",
+    "5": "terraria:block/bottle_top2",
+    "particle": "terraria:block/bottle"
+  },
+  "elements": [
+    {
+      "from": [2, 0, 2],
+      "to": [14, 2, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 0, 0]},
+      "faces": {
+        "north": {"uv": [2, 14, 14, 16], "texture": "#0"},
+        "east": {"uv": [2, 14, 14, 16], "texture": "#0"},
+        "south": {"uv": [2, 14, 14, 16], "texture": "#0"},
+        "west": {"uv": [2, 14, 14, 16], "texture": "#0"},
+        "down": {"uv": [2, 14, 14, 16], "texture": "#0", "cullface": "down"}
+      }
+    },
+    {
+      "from": [0, 2, 0],
+      "to": [16, 6, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
+      "faces": {
+        "north": {"uv": [0, 10, 16, 14], "texture": "#0", "cullface": "north"},
+        "east": {"uv": [0, 10, 16, 14], "texture": "#0", "cullface": "east"},
+        "south": {"uv": [0, 10, 16, 14], "texture": "#0", "cullface": "south"},
+        "west": {"uv": [0, 10, 16, 14], "texture": "#0", "cullface": "west"},
+        "up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+        "down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+      }
+    },
+    {
+      "from": [2, 6, 2],
+      "to": [14, 8, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 6, 2]},
+      "faces": {
+        "north": {"uv": [2, 8, 14, 10], "texture": "#0"},
+        "east": {"uv": [2, 8, 14, 10], "texture": "#0"},
+        "south": {"uv": [2, 8, 14, 10], "texture": "#0"},
+        "west": {"uv": [2, 8, 14, 10], "texture": "#0"},
+        "up": {"uv": [2, 2, 14, 14], "texture": "#3"}
+      }
+    },
+    {
+      "from": [4, 8, 4],
+      "to": [12, 12, 12],
+      "rotation": {"angle": 0, "axis": "y", "origin": [4, 8, 4]},
+      "faces": {
+        "north": {"uv": [4, 4, 12, 8], "texture": "#0"},
+        "east": {"uv": [4, 4, 12, 8], "texture": "#0"},
+        "south": {"uv": [4, 4, 12, 8], "texture": "#0"},
+        "west": {"uv": [4, 4, 12, 8], "texture": "#0"}
+      }
+    },
+    {
+      "from": [2, 12, 2],
+      "to": [14, 14, 14],
+      "rotation": {"angle": 0, "axis": "y", "origin": [2, 12, 2]},
+      "faces": {
+        "north": {"uv": [2, 2, 14, 4], "texture": "#0"},
+        "east": {"uv": [2, 2, 14, 4], "texture": "#0"},
+        "south": {"uv": [2, 2, 14, 4], "texture": "#0"},
+        "west": {"uv": [2, 2, 14, 4], "texture": "#0"},
+        "up": {"uv": [2, 2, 14, 14], "texture": "#5"},
+        "down": {"uv": [2, 2, 14, 14], "texture": "#4"}
+      }
+    },
+    {
+      "from": [4, 14, 4],
+      "to": [12, 16, 12],
+      "rotation": {"angle": 0, "axis": "y", "origin": [4, 14, 4]},
+      "faces": {
+        "north": {"uv": [4, 0, 12, 2], "texture": "#0"},
+        "east": {"uv": [4, 0, 12, 2], "texture": "#0"},
+        "south": {"uv": [4, 0, 12, 2], "texture": "#0"},
+        "west": {"uv": [4, 0, 12, 2], "texture": "#0"},
+        "up": {"uv": [4, 0, 12, 2], "texture": "#0", "cullface": "up"}
+      }
+    }
+  ]
+}
